@@ -1,0 +1,2 @@
+# Chessposition-recognition
+ The goal of this project is demonstrate a method for computers to recognize the state of chess board given an image. The method involves first finding the location of each piece in an image by identifying the chess grid using Canny Edge Detection and Hough Line Transform. The second half of the models takes each piece or empty square on the board and gives a prediction for its type using a ResNet18. Working together both parts are able to parse the state of board from an image. 
